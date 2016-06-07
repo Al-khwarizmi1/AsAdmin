@@ -11,7 +11,7 @@ namespace psa
             {
                 StartInfo =
                 {
-                    FileName = @"C:\Windows\System32\WindowsPowerShell\v1.0",
+                    FileName = @"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe",
                     UseShellExecute = true,
                     Verb = "runas",
                     Arguments = $"-noexit -command \"cd '{Directory.GetCurrentDirectory()}'\" "
